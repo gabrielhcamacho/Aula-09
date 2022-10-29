@@ -4,9 +4,9 @@ public class Conta_Comum {
     protected long nro_conta;
     protected Date dt_abertura;
     protected Date dt_encerramento;
-    int situacao = 1;
-    int senha;
-    double saldo = 0;
+    protected int situacao = 1;
+    protected int senha;
+    protected double saldo = 0;
 
     public long getNro_conta() {
         return nro_conta;
